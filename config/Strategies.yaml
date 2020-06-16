@@ -1,0 +1,7 @@
+bizDispatcher:
+  - defaultStrategyGroup:
+      default: defaultStrategy
+
+defaultStrategy:
+  - handler1
+  - handler2
