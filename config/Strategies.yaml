@@ -1,7 +1,7 @@
-bizDispatcher:
-  - defaultStrategyGroup:
-      default: defaultStrategy
+dispatcher:
+  - strategyGroup:
+      default: strategy
 
-defaultStrategy:
-  - handler1
-  - handler2
+strategy:
+  - feedback
+  - bid
