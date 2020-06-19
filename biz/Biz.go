@@ -15,3 +15,9 @@ type Bid struct {
 
 func (bid *Bid) Handle(request core.Request, session core.Session) {
 }
+
+type Material struct {
+}
+
+func (material *Material) Handle(request core.Request, session core.Session) {
+}
